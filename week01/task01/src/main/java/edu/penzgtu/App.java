@@ -9,5 +9,6 @@ public class App
         System.out.print("Enter your username >> ");
         String username = input.nextLine();
         System.out.println("Hello, " + username + "!");
+        input.close();
     }
 }
