@@ -1,3 +1,3 @@
 # Hello World Java
 
-![orange-cat-cat](https://github.com/lexaDOOM/vscode/assets/60314014/3b9ae315-acf0-4237-aacf-f50bb05615c1)
+![orange-cat-cat](https://tenor.com/ru/view/maxwell-spin-meme-cat-smile-gif-17937593572174984660)
