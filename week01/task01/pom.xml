@@ -54,8 +54,11 @@
           <configuration>
             <archive>
               <manifest>
-                <mainClass>edu.penzgtu.App</mainClass>
-            </manifest>
+                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+                <addClasspath>true</addClasspath>
+                <mainClass>edu.penzgtu.App</mainClass>                                
+              </manifest>
             </archive>
           </configuration>
         </plugin>
