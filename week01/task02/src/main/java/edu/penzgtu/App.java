@@ -33,5 +33,21 @@ public class App
         System.out.println();
         // For long (64 bits) range is: from -(2^63) = -9223372036854775808 to 2^63 - 1 = 9223372036854775807
         // long has 18446744073709551616 different values (2^64 = 18446744073709551616)
+
+        System.out.println( "FLOATING POINT TYPES:" );
+        System.out.println();
+
+        // float min and max values
+        System.out.println( "float min value: " + Float.MIN_VALUE );  // min value is 1.4E-45
+        System.out.println( "float max value: " + Float.MAX_VALUE );  // max value is 3.4028235E38
+        System.out.println();
+        // For float (32 bits) range is: from 1.4E-45 to 3.4028235E38
+        // float has 4294967296 different values (2^32 = 4294967296)
+
+        // double min and max values
+        System.out.println( "double min value: " + Double.MIN_VALUE );  // min value is 4.9E-324
+        System.out.println( "double max value: " + Double.MAX_VALUE );  // max value is 1.7976931348623157E308
+        // For double (64 bits) range is: from 4.9E-324 to 1.7976931348623157E308
+        // double has 18446744073709551616 different values (2^64 = 18446744073709551616)
     }
 }
