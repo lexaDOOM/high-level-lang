@@ -28,15 +28,16 @@ public class Student {
         return averageScore;
     }
 
-    public int getStudentId() {
-        return studentId;
-    }
-
     public String getName() {
         return name;
     }
+
     public String getGroup() {
         return group;
+    }
+
+    public int getStudentId() {
+        return studentId;
     }
 
     // Setters
@@ -66,7 +67,7 @@ public class Student {
 
     public String toString() {
         return String.format("Name - %s\nAge - %d\nGroup - %s\nStudent ID - %d\nAverage score - %f",
-                name, getAge(), group, studentId, averageScore);
+                name, getAge(), getGroup(), getStudentId(), getAverageScore());
     }
 
 }
