@@ -11,5 +11,6 @@ public class App
 
         PyramidGenerator pyramid1 = new PyramidGenerator(height);
         pyramid1.generatePyramid();
+        scanner.close();
     }
 }
