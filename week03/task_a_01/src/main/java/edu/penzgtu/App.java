@@ -11,6 +11,7 @@ public class App
 
         System.out.print("Введите возраст >> ");
         int age = scanner.nextInt();
+        scanner.close();
 
         AgeForm ageForm = new AgeForm(age);
         System.out.println(ageForm.getAgeCorrectForm());
