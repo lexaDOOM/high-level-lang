@@ -12,6 +12,10 @@ public class App
         double number = scanner.nextDouble();
         System.out.println();
 
+        if (number < 0) {
+            System.out.println("Result: NaN");
+        }
+
         HeronSqrt sqrt = new HeronSqrt(number);
 
         System.out.printf("Result: %f", sqrt.sqrtCalculate());

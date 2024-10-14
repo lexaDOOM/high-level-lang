@@ -10,11 +10,16 @@ public class App
 
         System.out.print("Enter month number >> ");
         int month = scanner.nextInt();
-        System.err.println();
+        System.out.println();
+
+        if (month < 1 || month > 12) {
+            System.out.println("Wrong month number!");
+            System.exit(0);
+        }
 
         System.out.print("Enter year >> ");
         int year = scanner.nextInt();
-        System.err.println();
+        System.out.println();
 
         scanner.close();
 

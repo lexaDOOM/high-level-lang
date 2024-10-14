@@ -8,6 +8,11 @@ public class HeronSqrt {
     }
 
     public double sqrtCalculate() {
+
+        if (number == 0) {
+            return 0;
+        }
+
         double approx = number / 2.0;
         double calcError = 0.000001;
         double result;
