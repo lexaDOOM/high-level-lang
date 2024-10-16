@@ -1,3 +1,3 @@
 # Hello World Java
 
-![orange-cat-cat](https://media.tenor.com/-O8iUQLR9dQAAAAj/maxwell-spin.gif)
+![maxwell](https://tenor.com/ru/view/maxwell-gif-27526592)
