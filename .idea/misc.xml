@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/week01/task01/pom.xml" />
+        <option value="$PROJECT_DIR$/week01/task02/pom.xml" />
+        <option value="$PROJECT_DIR$/week01/task03/pom.xml" />
+        <option value="$PROJECT_DIR$/week02/task01_01/pom.xml" />
+        <option value="$PROJECT_DIR$/week02/task01_02/pom.xml" />
+        <option value="$PROJECT_DIR$/week02/task02_01/pom.xml" />
+        <option value="$PROJECT_DIR$/week02/task02_02/pom.xml" />
+        <option value="$PROJECT_DIR$/week02/task03_01/pom.xml" />
+        <option value="$PROJECT_DIR$/week02/task03_02/pom.xml" />
+        <option value="$PROJECT_DIR$/week03/task_a_01/pom.xml" />
+        <option value="$PROJECT_DIR$/week03/task_a_02/pom.xml" />
+        <option value="$PROJECT_DIR$/week03/task_a_03/pom.xml" />
+        <option value="$PROJECT_DIR$/week03/task_b_01/pom.xml" />
+        <option value="$PROJECT_DIR$/week03/task_b_02/pom.xml" />
+        <option value="$PROJECT_DIR$/week03/task_b_03/pom.xml" />
+        <option value="$PROJECT_DIR$/week03/task_c_01/pom.xml" />
+        <option value="$PROJECT_DIR$/week03/task_c_02/pom.xml" />
+        <option value="$PROJECT_DIR$/week03/task_c_03/pom.xml" />
+        <option value="$PROJECT_DIR$/week04/task01_a/pom.xml" />
+        <option value="$PROJECT_DIR$/week04/task01_b/pom.xml" />
+        <option value="$PROJECT_DIR$/week04/task02_a/pom.xml" />
+        <option value="$PROJECT_DIR$/week04/task02_b/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="23" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
