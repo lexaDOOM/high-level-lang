@@ -2,10 +2,8 @@ package edu.penzgtu;
 
 import java.util.Scanner;
 
-public class App 
-{
-    public static void main( String[] args )
-    {
+public class App {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter sensors data >> ");
@@ -17,16 +15,16 @@ public class App
 
         String[] sensorsData = input.split("@");
 
-        Sensors processor = new Sensors(input.length());
+        Sensors processor = new Sensors(100); 
 
         processor.sensorDataProc(sensorsData);
-        
+
         double[] averageTemps = processor.calculateAverageTemps();
 
         System.out.print("Sort by: 1 - IDs, 2 - Temperature >> ");
         int sortChoice = scanner.nextInt();
         scanner.close();
-        
+
         if (sortChoice == 1) {
             processor.sortById(averageTemps);
         } else if (sortChoice == 2) {

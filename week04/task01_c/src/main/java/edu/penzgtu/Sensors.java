@@ -7,10 +7,10 @@ public class Sensors {
     private int size;
 
     // Constructor
-    public Sensors(int sensorNums) {
-        sensorIds = new String[sensorNums];
-        totalTemps = new double[sensorNums];
-        counts = new int[sensorNums];
+    public Sensors(int maxSensors) {
+        sensorIds = new String[maxSensors];
+        totalTemps = new double[maxSensors];
+        counts = new int[maxSensors];
         size = 0;
     }
 
@@ -29,6 +29,12 @@ public class Sensors {
         for (String reading : readings) {
             String sensorId = reading.substring(0, 2);
             int temp = Integer.parseInt(reading.substring(2));
+
+            // Проверка диапазона температуры
+            if (temp < -50 || temp > 50) {
+                System.out.printf("Invalid temperature %d for sensor ID %s. Ignoring this reading.%n", temp, sensorId);
+                continue;
+            }
 
             int index = findSensorIndex(sensorId);
 
@@ -58,7 +64,7 @@ public class Sensors {
         String tempId = sensorIds[i];
         sensorIds[i] = sensorIds[j];
         sensorIds[j] = tempId;
-        
+
         double tempT = averageTemps[i];
         averageTemps[i] = averageTemps[j];
         averageTemps[j] = tempT;
@@ -75,7 +81,7 @@ public class Sensors {
         }
     }
 
-    // Sot by Temps
+    // Sort by Temperature
     public void sortByTemp(double[] averageTemps) {
         for (int i = 0; i < size - 1; i++) {
             for (int j = i + 1; j < size; j++) {
