@@ -20,7 +20,7 @@ public class App
         Sensors processor = new Sensors(input.length());
 
         processor.sensorDataProc(sensorsData);
-
+        
         double[] averageTemps = processor.calculateAverageTemps();
 
         System.out.print("Sort by: 1 - IDs, 2 - Temperature >> ");

@@ -32,7 +32,7 @@ public class Sensors {
 
             int index = findSensorIndex(sensorId);
 
-            if (index != 1) {
+            if (index != -1) {
                 totalTemps[index] += temp;
                 counts[index]++;
             } else {

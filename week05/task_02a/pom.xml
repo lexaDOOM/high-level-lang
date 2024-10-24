@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>edu.penzgtu</groupId>
-  <artifactId>task01_a</artifactId>
+  <artifactId>task_02a</artifactId>
   <version>0.1</version>
 
-  <name>task01_a</name>
+  <name>task_02a</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
