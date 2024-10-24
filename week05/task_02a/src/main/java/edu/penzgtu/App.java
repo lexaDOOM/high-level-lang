@@ -44,7 +44,7 @@ public class App
                     break;
                 case "float":
                     float floatValue = Converter.toFloat(message);
-                    System.out.println("(byte) result: " + floatValue);
+                    System.out.println("(float) result: " + floatValue);
                     break;
                 default:
                     System.out.println("Unknown type!");
