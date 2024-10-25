@@ -39,7 +39,7 @@ public class Sensors {
                 throw new InvalidSensorDataException("Wrong temperature: " + reading);
             }
 
-            // Проверка диапазона температуры
+            // Checking input temperature range
             if (temp < -50 || temp > 50) {
                 System.out.printf("Invalid temperature %d for sensor ID %s. Ignoring this reading.%n", temp, sensorId);
                 continue;
